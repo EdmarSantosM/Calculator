@@ -30,11 +30,13 @@ namespace Calculator
             System.Console.WriteLine(" 2 - Subtração ");
             System.Console.WriteLine(" 3 - Divisão ");
             System.Console.WriteLine(" 4 - multiplicação ");
+            System.Console.WriteLine(" 5 - Sair ");
 
             System.Console.WriteLine();
             System.Console.WriteLine(" ========================================== ");
             System.Console.WriteLine("           Selecione uma  opção:  ");
             System.Console.WriteLine(" ========================================== ");
+            System.Console.WriteLine("");
             
             short opcao = short.Parse(Console.ReadLine());
 
@@ -44,6 +46,7 @@ namespace Calculator
                 case 2: Subtracao();break;
                 case 3: Divisao(); break;
                 case 4: Multipicacao();break;
+                case 5: Finalizar();break;
                 default: Menu();break;
             }
 
@@ -135,6 +138,15 @@ namespace Calculator
             System.Console.WriteLine("");
             System.Console.ReadKey();
             Menu();
+        }
+
+        static void Finalizar()
+        {
+            System.Console.WriteLine(" ==================================================== ");
+            System.Console.WriteLine("  Obrigado por utilizar a Calculadora em Console ");
+            System.Console.WriteLine(" ==================================================== ");
+
+            System.Environment.Exit(0);
         }
 
     }
