@@ -44,7 +44,14 @@ namespace Calculator
             
             short opcao = short.Parse(Console.ReadLine());
 
-
+            switch(opcao)
+            {
+                case 1: Soma();break;
+                case 2: Subtracao();break;
+                case 3: Divisao(); break;
+                case 4: Multipicacao();break;
+                default: Menu();break;
+            }
 
 
         }
