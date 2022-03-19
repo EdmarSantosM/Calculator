@@ -42,7 +42,7 @@ namespace Calculator
 
             switch(opcao)
             {
-                case 1: Soma();break;
+                case 1: Soma(); ;break;
                 case 2: Subtracao();break;
                 case 3: Divisao(); break;
                 case 4: Multipicacao();break;
@@ -59,7 +59,7 @@ namespace Calculator
 
           
            System.Console.Clear();
-
+              
            System.Console.WriteLine("");
 
            System.Console.Write(" Digite o primeiro valor: ");
@@ -142,11 +142,16 @@ namespace Calculator
 
         static void Finalizar()
         {
+            
+            System.Console.Clear();
+            System.Console.WriteLine("");
+
             System.Console.WriteLine(" ==================================================== ");
-            System.Console.WriteLine("  Obrigado por utilizar a Calculadora em Console ");
+            System.Console.WriteLine("   Obrigado por utilizar a Calculadora em Console ");
             System.Console.WriteLine(" ==================================================== ");
 
             System.Environment.Exit(0);
+            //Encerrando aplicação em console
         }
 
     }
