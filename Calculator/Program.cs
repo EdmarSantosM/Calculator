@@ -6,7 +6,10 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-           Console.Clear();
+           System.Console.Clear();
+           System.Console.WriteLine(" ========================================== ");
+           System.Console.WriteLine(" Bem-vindo a sua  Calculadora em Console ");
+           System.Console.WriteLine(" ========================================== ");
         }
     }
 }
