@@ -14,7 +14,9 @@ namespace Calculator
 
 
         // Soma();
-         Subtracao();
+        // Subtracao();
+       // Divisao();
+       Multipicacao();
 
         }
 
@@ -35,6 +37,7 @@ namespace Calculator
 
            System.Console.WriteLine("");
            float resultado = v1 + v2;
+
            System.Console.WriteLine($" O resultado da soma de {v1} + {v2} é = {resultado}");
            System.Console.WriteLine();
            System.Console.ReadKey();
@@ -54,8 +57,9 @@ namespace Calculator
 
             System.Console.WriteLine("");
             float resultado = v1 - v2;
-            System.Console.WriteLine($" O resultado da subtração de {v1} - {v2} é = {resultado}");
-            System.Console.WriteLine("");
+
+            System.Console.Write($" O resultado da subtração de {v1} - {v2} é = {resultado}");
+            System.Console.Write("");
             System.Console.ReadKey();
         }
 
@@ -65,19 +69,39 @@ namespace Calculator
 
             System.Console.WriteLine("");
 
-            System.Console.WriteLine(" Digite o primeiro valor: ");
+            System.Console.Write(" Digite o primeiro valor: ");
             float v1 = float.Parse(Console.ReadLine());
             
-            System.Console.WriteLine(" Digite o segundo valor: ");
+            System.Console.Write(" Digite o segundo valor: ");
             float v2 = float.Parse(Console.ReadLine());
 
             System.Console.WriteLine("");
             float resultado = v1 / v2;
+
             System.Console.WriteLine($" O resultado da divisão de {v1} / {v2} é = {resultado}");
             System.Console.WriteLine("");
             System.Console.ReadKey();
         }
 
+        static void Multipicacao()
+        {
+            System.Console.Clear();
+
+            System.Console.WriteLine("");
+
+            System.Console.Write(" Digite o primeiro valor: ");
+            float v1 = float.Parse(Console.ReadLine());
+
+            System.Console.Write(" Digite o segundo valor: ");
+            float v2 = float.Parse(Console.ReadLine());
+
+            System.Console.WriteLine("");
+            float resultado  = v1 * v2;
+
+            System.Console.WriteLine($"O resultado da multiplicação de {v1} x {v2} é = {resultado} ");
+            System.Console.WriteLine("");
+            System.Console.ReadKey();
+        }
 
     }
     
