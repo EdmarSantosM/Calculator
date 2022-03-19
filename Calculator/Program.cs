@@ -8,12 +8,6 @@ namespace Calculator
         {
 
          
-
-
-        // Soma();
-        // Subtracao();
-        // Divisao();
-        // Multipicacao();
         Menu();
 
         }
@@ -77,6 +71,7 @@ namespace Calculator
            System.Console.WriteLine($" O resultado da soma de {v1} + {v2} é = {resultado}");
            System.Console.WriteLine();
            System.Console.ReadKey();
+           Menu();
 
         }
         static void Subtracao()
@@ -97,6 +92,7 @@ namespace Calculator
             System.Console.Write($" O resultado da subtração de {v1} - {v2} é = {resultado}");
             System.Console.Write("");
             System.Console.ReadKey();
+            Menu();
         }
 
         static void Divisao()
@@ -117,6 +113,7 @@ namespace Calculator
             System.Console.WriteLine($" O resultado da divisão de {v1} / {v2} é = {resultado}");
             System.Console.WriteLine("");
             System.Console.ReadKey();
+            Menu();
         }
 
         static void Multipicacao()
@@ -137,6 +134,7 @@ namespace Calculator
             System.Console.WriteLine($"O resultado da multiplicação de {v1} x {v2} é = {resultado} ");
             System.Console.WriteLine("");
             System.Console.ReadKey();
+            Menu();
         }
 
     }
