@@ -36,6 +36,17 @@ namespace Calculator
             System.Console.WriteLine(" 2 - Subtração ");
             System.Console.WriteLine(" 3 - Divisão ");
             System.Console.WriteLine(" 4 - multiplicação ");
+
+            System.Console.WriteLine();
+            System.Console.WriteLine(" ========================================== ");
+            System.Console.WriteLine("           Selecione uma  opção:  ");
+            System.Console.WriteLine(" ========================================== ");
+            
+            short opcao = short.Parse(Console.ReadLine());
+
+
+
+
         }
 
         static void Soma()
