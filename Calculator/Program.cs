@@ -15,9 +15,20 @@ namespace Calculator
 
         // Soma();
         // Subtracao();
-       // Divisao();
-       Multipicacao();
+        // Divisao();
+        // Multipicacao();
 
+        }
+
+        static  void Menu()
+        {
+            System.Console.Clear();
+            
+            System.Console.WriteLine(" Qual  cálculo  deseja  efetuar ? ");
+            System.Console.WriteLine(" 1 - Soma ");
+            System.Console.WriteLine(" 2 - Subtração ");
+            System.Console.WriteLine(" 3 - Divisão ");
+            System.Console.WriteLine(" 4 - multiplicação ");
         }
 
         static void Soma()
