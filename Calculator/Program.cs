@@ -7,17 +7,22 @@ namespace Calculator
         static void Main(string[] args)
         {
 
+           System.Console.WriteLine(" ========================================== ");
+           System.Console.WriteLine(" Bem-vindo a sua  Calculadora em Console ");
+           System.Console.WriteLine(" ========================================== ");
+
+
+
          Soma();
 
         }
 
         static void Soma()
+
         {
 
+          
            System.Console.Clear();
-           System.Console.WriteLine(" ========================================== ");
-           System.Console.WriteLine(" Bem-vindo a sua  Calculadora em Console ");
-           System.Console.WriteLine(" ========================================== ");
 
            System.Console.WriteLine("");
 
