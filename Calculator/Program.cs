@@ -25,7 +25,7 @@ namespace Calculator
 
 
             System.Console.WriteLine(" ========================================== ");
-            System.Console.WriteLine(" Bem-vindo a sua  Calculadora em Console ");
+            System.Console.WriteLine("  Bem-vindo a sua  Calculadora em Console ");
             System.Console.WriteLine(" ========================================== ");
 
             System.Console.WriteLine("");
