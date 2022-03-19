@@ -7,24 +7,31 @@ namespace Calculator
         static void Main(string[] args)
         {
 
-           System.Console.WriteLine(" ========================================== ");
-           System.Console.WriteLine(" Bem-vindo a sua  Calculadora em Console ");
-           System.Console.WriteLine(" ========================================== ");
-
+         
 
 
         // Soma();
         // Subtracao();
         // Divisao();
         // Multipicacao();
+        Menu();
 
         }
 
         static  void Menu()
         {
+
             System.Console.Clear();
-            
+
+
+            System.Console.WriteLine(" ========================================== ");
+            System.Console.WriteLine(" Bem-vindo a sua  Calculadora em Console ");
+            System.Console.WriteLine(" ========================================== ");
+
+            System.Console.WriteLine("");
             System.Console.WriteLine(" Qual  cálculo  deseja  efetuar ? ");
+            System.Console.WriteLine("");
+
             System.Console.WriteLine(" 1 - Soma ");
             System.Console.WriteLine(" 2 - Subtração ");
             System.Console.WriteLine(" 3 - Divisão ");
